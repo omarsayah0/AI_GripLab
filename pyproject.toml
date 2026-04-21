@@ -1,0 +1,40 @@
+[project]
+name = "rl-robot"
+version = "0.1.0"
+description = "RL Pick and Place Robot Project"
+requires-python = ">=3.10,<3.14"
+
+authors = [
+    { name = "Omar", email = "omaralethamat@gmail.com" }
+]
+
+dependencies = [
+    "gymnasium>=1.2.3,<2.0.0",
+    "gymnasium-robotics>=1.4.1,<2.0.0",
+    "stable-baselines3>=2.8.0,<3.0.0",
+    "mujoco>=3.5.0,<4.0.0",
+    "numpy>=1.26,<2.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0,<9.0.0"
+]
+
+[project.scripts]
+FPAP_PPO_train      = "problems.FetchPickAndPlace.ppo_model.train_ppo:train_model"
+FPAP_PPO_test       = "problems.FetchPickAndPlace.ppo_model.test_ppo:test_model"
+FPAP_SAC_train      = "problems.FetchPickAndPlace.sac_her_model.train_sac_her:train_or_continue"
+FPAP_SAC_test       = "problems.FetchPickAndPlace.sac_her_model.test_sac_her:test_model"
+FPAP_NoTrain_test   = "problems.FetchPickAndPlace.no_train_test:run_random"
+FR_PPO_train        = "problems.FetchReach.train:train_model"
+FR_PPO_test         = "problems.FetchReach.test:test_model"
+FR_NoTrain_test     = "problems.FetchReach.no_train_test:run_random"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["problems*"]
