@@ -160,7 +160,7 @@ After training for ~3.75M timesteps (7–8 runs × 500k steps each):
 
 Shows the FetchReach agent acting randomly before any training.
 
-📁 [`Videos/FetchReach/before_train.mp4`](Videos/FetchReach/before_train.mp4)
+[![Watch the video](https://img.youtube.com/vi/Z3mihdathvE/0.jpg)](https://youtu.be/Z3mihdathvE)
 
 ---
 
