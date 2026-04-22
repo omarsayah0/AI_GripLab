@@ -168,7 +168,7 @@ Shows the FetchReach agent acting randomly before any training.
 
 Shows the PPO agent successfully moving the end-effector to the target position.
 
-📁 [`Videos/FetchReach/PPO_model.mp4`](Videos/FetchReach/PPO_model.mp4)
+[![Watch the video](https://img.youtube.com/vi/Z3mihdathvE/0.jpg)](https://www.youtube.com/watch?v=ru0gh5H3Tbk)
 
 ---
 
