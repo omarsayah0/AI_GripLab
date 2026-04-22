@@ -178,7 +178,7 @@ Shows the PPO agent successfully moving the end-effector to the target position.
 
 Shows the FetchPickAndPlace agent acting randomly before any training.
 
-📁 [`Videos/FetchPickAndPlace/before_train.mp4`](Videos/FetchPickAndPlace/before_train.mp4)
+[![Watch the video](https://img.youtube.com/vi/Z3mihdathvE/0.jpg)](https://www.youtube.com/watch?v=m5VGtxrbCU4)
 
 ---
 
@@ -186,7 +186,7 @@ Shows the FetchPickAndPlace agent acting randomly before any training.
 
 Shows the agent converging to ineffective behavior (avoiding the object).
 
-📁 [`Videos/FetchPickAndPlace/PPO_model.mp4`](Videos/FetchPickAndPlace/PPO_model.mp4)
+[![Watch the video](https://img.youtube.com/vi/Z3mihdathvE/0.jpg)](https://youtu.be/eH25cbNFVD8)
 
 ---
 
@@ -198,7 +198,7 @@ Shows the agent successfully:
 - lifting it
 - placing it at the target
 
-📁 [`Videos/FetchPickAndPlace/SAC_HER_model.mp4`](Videos/FetchPickAndPlace/SAC_HER_model.mp4)
+[![Watch the video](https://img.youtube.com/vi/Z3mihdathvE/0.jpg)](https://youtu.be/lGx3mQzwvKM)
 
 ---
 
