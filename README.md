@@ -1,4 +1,4 @@
-# 🤖 AI_GripLab
+# 🤖 GripLab
 
 ## Table of Contents
 
